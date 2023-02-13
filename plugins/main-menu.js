@@ -242,21 +242,21 @@ let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.cha
 let tagnya = `@${m.sender.split`@`[0]}`
 
 let jarot = `┏─────────────────⬣
-┆ 𝑯𝒂𝒊, ${tagnya} 👋
+┆ Hai, ${tagnya} 👋
 ┗┬──────────────┈ ⳹
-┏┆♠︎ 𝙽𝚊𝚖𝚎 : ${name}
-┃┆♠︎ 𝙻𝚒𝚖𝚒𝚝 : ${limit}
-┃┆♠︎ 𝙼𝚘𝚗𝚎𝚢 : ${money}
-┃┆♠︎ 𝙴𝚡𝚙 : ${exp}
-┃┆♠︎ 𝙻𝚎𝚟𝚎𝚕 : ${level}
-┃┆♠︎ 𝚁𝚘𝚕𝚎: ${role}
+┏┆♠︎ *Name* : ${name}
+┃┆♠︎ *Limit* : ${limit}
+┃┆♠︎ *Uang* : ${money}
+┃┆♠︎ *Exp* : ${exp}
+┃┆♠︎ *Level* : ${level}
+┃┆♠︎ *Role* : ${role}
 ┗┬──────────────┈ ⳹
-┏┤   𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫
+┏┤   *Kalender*
 ┆┗──────────────┈ ⳹
-┆♠︎ 𝙷𝚊𝚛𝚒 : ${week} ${weton}
-┆♠︎ 𝚄𝚙𝚝𝚒𝚖𝚎 : ${uptime}
-┆♠︎ 𝚃𝚒𝚖𝚎 :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-┆︎︎♠︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
+┆♠︎ *Hari/ : ${week} ${weton}
+┆♠︎ *Uptime* : ${uptime}
+┆♠︎ *Time*:  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
+┆︎︎♠︎ *Tanggal* : ${date}
 ┗─────────────────⬣`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
@@ -356,7 +356,7 @@ let buttonMessage= {
 'footer': text,
 'buttons':[
 {'buttonId':'.owner','buttonText':{'displayText': 'Owner'},'type':1},
-{'buttonId':'.donasi','buttonText':{'displayText': '𝙳𝚘𝚗𝚊𝚜𝚒'},'type':1},
+{'buttonId':'.donasi','buttonText':{'displayText': 'Donasi'},'type':1},
 {'buttonId':'.rules','buttonText':{'displayText': 'Rules Bot'},'type':1},
 
 ],

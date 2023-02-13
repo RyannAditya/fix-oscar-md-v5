@@ -13,7 +13,7 @@ let fs = require('fs')
 handler.help = ['kick'].map(v => v + ' @user')
 handler.tags = ['group']
 handler.command = /^(kick|\-)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
 handler.group = true

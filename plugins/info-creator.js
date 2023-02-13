@@ -43,7 +43,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let jarot = 'https://telegra.ph/file/968d978cd8f647d6a133c.jpg'
+let jarot = 'https://telegra.ph/file/ddbeaae468b8cb9a0eeb8.jpg'
 await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner']
 handler.tags = ['info']
