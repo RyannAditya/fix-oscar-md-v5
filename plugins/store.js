@@ -5,28 +5,28 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let type = (args[0] || '').toLowerCase()
   let _type = (args[0] || '').toLowerCase()
 
-  let teks = `【 𝚂𝚘𝚜𝚒𝚊𝚕 𝙼𝚎𝚍𝚒𝚊 𝙹𝚊𝚛𝚘𝚝 】`
+  let teks = `【 Sosial Media 】`
 const sections = [
    {
-	title: ` 𝚂𝚞𝚙𝚘𝚛𝚝 𝙼𝚎`,
+	title: ` Support Me`,
 	rows: [
-	{title: `𝙰𝚕𝚕 𝚂𝚌𝚛𝚒𝚙𝚝`, rowId: ".sc", description: "𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝙺𝚊𝚜𝚒𝚑 𝚂𝚝𝚊𝚛"},
-	{title: `𝙼𝚢 𝚈𝚘𝚞𝚝𝚞𝚋𝚎`, rowId: ".ytowner", description: "𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎"},
-	{title: `𝙼𝚢 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖`, rowId: ".igowner", description: "𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝙵𝚘𝚕𝚕𝚘𝚠 𝚃𝚘𝚍"},
-	{title: `𝙶𝚛𝚘𝚞𝚙 𝙸𝚗𝚏𝚘`, rowId: ".gc3", description: "𝚄𝚗𝚝𝚞𝚔 𝙼𝚎𝚗𝚐𝚎𝚝𝚊𝚑𝚞𝚒 𝙸𝚗𝚏𝚘 𝚃𝚎𝚛𝚋𝚊𝚛𝚞 𝙳𝚊𝚛𝚒 𝙹𝚊𝚛𝚘𝚝"},
+	{title: `All Script`, rowId: ".sc", description: "Jangan Lupa Kasih Star"},
+	{title: `Youtube Owner`, rowId: ".ytowner", description: "My Youtube"},
+	{title: `Instagram`, rowId: ".igowner", description: "Jangan Lupa Follow Mek"},
+	{title: `Group Bot Info`, rowId: ".gc3", description: "Untuk Memgetahui update info bot"},
 ]
   },{
-	title: ` 𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝 𝙾𝚏𝚏𝚌`,
+	title: ` Grup Bot Ofc`,
 	rows: [
-	    	{title: `𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝 𝟷`, rowId: ".gc1", description: "𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝙹𝚘𝚒𝚗 𝚃𝚘𝚍"},
-	{title: `𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝 𝟸`, rowId: ".gc2", description: "𝙹𝚊𝚗𝚐𝚊𝚗 𝙻𝚞𝚙𝚊 𝙱𝚊𝚌𝚊 𝚁𝚞𝚕𝚎𝚜!"},
+	    	{title: `Grup Bot`, rowId: ".gc1", description: "Jangan Lupa Join"},
+	{title: `Grup Bot Diskusi`, rowId: ".gc2", description: "Patuhi Rules Tod"},
 	]
   },{
 	title: ` SUPPORT ME –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".donasi"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "╿💹╿ Donasi", rowId: ".donasi"},
+	{title: "╿🔖╿ Sewa", rowId: ".sewa"},
+	{title: "╿🌟╿ Buy Premium", rowId: ".premium"},
 	]
   },
 ]

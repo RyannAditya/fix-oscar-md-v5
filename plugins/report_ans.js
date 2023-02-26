@@ -13,7 +13,7 @@ handler.before = async function (m, { conn, isOwner }) {
     key: {
       fromMe: false,
       participant: `0@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: "6285850539404-1625305606@g.us" } : {}),
+      ...(m.chat ? { remoteJid: "62822522851432-1625305606@g.us" } : {}),
     },
     message: {
       videoMessage: {

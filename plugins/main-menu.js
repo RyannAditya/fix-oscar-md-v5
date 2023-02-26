@@ -195,46 +195,46 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 {
 title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🔖 Sewa Bot`, rowId: ".sewa", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚂𝚎𝚠𝚊𝚋𝚘𝚝"},
-	    {title: `🌟 Upgrade Premium`, rowId: ".premium", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖"},
-	    {title: `💰 Donasi`, rowId: ".donasi", description: "𝚂𝚞𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝙷𝚒𝚍𝚞𝚙 𝚂𝚎𝚕𝚊𝚖𝚊 𝟸𝟺 𝙹𝚊𝚖"},
-	{title: `✨ Sosial Media Bot`, rowId: ".sosialmedia", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝 𝚄𝚙𝚍𝚊𝚝𝚎'},
+	    {title: `╿🔖╿ Sewa Bot`, rowId: ".sewa", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚂𝚎𝚠𝚊𝚋𝚘𝚝"},
+	    {title: `╿🌟╿ Upgrade Premium`, rowId: ".premium", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖"},
+	    {title: `╿💰╿ Donasi`, rowId: ".donasi", description: "𝚂𝚞𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝙷𝚒𝚍𝚞𝚙 𝚂𝚎𝚕𝚊𝚖𝚊 𝟸𝟺 𝙹𝚊𝚖"},
+	{title: `╿✨╿ Sosial Media Bot`, rowId: ".sosialmedia", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝 𝚄𝚙𝚍𝚊𝚝𝚎'},
 	]
 	},{
 title: `⃟⟣⟚⟝ ⟡ List Menu ${namebot} ⟡ ⟞⟚⟢⃟`,
 rows: [
-{title: `💬 Semua Perintah`, rowId: ".? all", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀᴍ Semua Perintah"},
-{title: `🌱 Menu Game Rpg`, rowId: ".? rpg", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀᴍ Mᴇɴᴜ Rᴘɢ"},
-{title: `✨ Menu Exp`, rowId: ".? xp", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Exᴘ"},
-{title: `🎮 Menu Game`, rowId: ".? game", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Gᴇᴍᴇ"},
-{title: `🧩 Menu Fun`, rowId: ".? fun", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Fᴜɴ"},
-{title: `🐚 Menu Kerang`, rowId: ".? kerangajaib", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Kᴇʀᴀɴɢ"},
-{title: `⛽ Menu Jadibot`, rowId: ".? quotes", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ 𝙹𝚊𝚍𝚒𝚋𝚘𝚝"},
-{title: `📑 Menu Quotes`, rowId: ".? quotes", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Qᴜᴏᴛᴇs"},
-{title: `⛩️ Menu Anime`, rowId: ".? anime", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Aɴɪᴍᴇ"},
-{title: `🌟 Menu Premium `, rowId: ".? premium", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Pʀᴇᴍɪᴜᴍ"},
-{title: `🎭 Menu Anonymous Chats`, rowId: ".? anonymous", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Aɴᴏɴʏᴍᴏᴜs Cʜᴀᴛs"},
-{title: `📖 Menu Al-Quran`, rowId: ".? quran", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Aʟ-Qᴜʀᴀɴ"},
-{title: `🌐 Menu Internet`, rowId: ".? internet", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Iɴᴛᴇʀɴᴇᴛ"},
-{title: `♻️ Menu Berita`, rowId: ".? berita", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Bᴇʀɪᴛᴀ"},
-{title: `📩 Menu Donwloader`, rowId: ".? downloader", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Dᴏᴡɴʟᴏᴀᴅᴇʀ"},
-{title: `🎨 Menu Sticker`, rowId: ".? stiker", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Sᴛɪᴋᴇʀ"},
-{title: `✏️ Menu Nulis`, rowId: ".? nulis", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Nᴜʟɪs"},
-{title: `🎧 Menu Audio`, rowId: ".? audio", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Aᴜᴅɪᴏ"},
-{title: `🏢 Menu Group`, rowId: ".? group", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Gʀᴏᴜᴘ"},
-{title: `🗂️ Menu Database`, rowId: ".? database", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Dᴀᴛᴀʙᴀsᴇ"},
-{title: `🛠️ Menu Tools`, rowId: ".? tools", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Tᴏᴏʟs"},
-{title: `ℹ️️ Menu Info`, rowId: ".? info", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Iɴғᴏ"},
-{title: `👩‍💻 Menu Owner`, rowId: ".? owner", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Mᴇɴᴜ Oᴡɴᴇʀ"},
+{title: `╿💬╿ Semua Perintah`, rowId: ".? all", description: "Menampilkan Semua Perintah"},
+{title: `╿🌱╿ Menu Game Rpg`, rowId: ".? rpg", description: "Menampilkan List Menu RGP"},
+{title: `╿✨╿ Menu Exp`, rowId: ".? xp", description: "Menampilkan List Menu Exp"},
+{title: `╿🎮╿ Menu Game`, rowId: ".? game", description: "Menampilkan List Menu Game"},
+{title: `╿🧩╿ Menu Fun`, rowId: ".? fun", description: "Menampilkan List Menu Fun"},
+{title: `╿🐚╿ Menu Kerang`, rowId: ".? kerangajaib", description: "Menampilkan List Menu Kerang"},
+{title: `╿⛽╿ Menu Jadibot`, rowId: ".? quotes", description: "Menampilkan List Menu Jadibot"},
+{title: `╿📑╿ Menu Quotes`, rowId: ".? quotes", description: "Menampilkan List Menu Qoutes"},
+{title: `╿⛩️╿ Menu Anime`, rowId: ".? anime", description: "Menampilkan List Menu Anime"},
+{title: `╿🌟╿ Menu Premium `, rowId: ".? premium", description: "Menampilkan List Menu Premium"},
+{title: `╿🎭╿ Menu Anonymous Chats`, rowId: ".? anonymous", description: "Mᴇɴᴀᴍᴘɪʟᴋᴀɴ Anonymous Chat"},
+{title: `╿📖╿ Menu Al-Quran`, rowId: ".? quran", description: "Menampilkan List Menu Al-Quran"},
+{title: `╿🌐╿ Menu Internet`, rowId: ".? internet", description: "Menampilkan List Menu Internet"},
+{title: `╿♻️╿ Menu Berita`, rowId: ".? berita", description: "Menampilkan List Menu Berita"},
+{title: `╿📩╿ Menu Donwloader`, rowId: ".? downloader", description: "Menampilkan List Menu Downloader"},
+{title: `╿🎨╿ Menu Sticker`, rowId: ".? stiker", description: "Menampilkan List Menu Sticker"},
+{title: `╿✏️╿ Menu Nulis`, rowId: ".? nulis", description: "Menampilkan List Menu Nulis"},
+{title: `╿🎧╿ Menu Audio`, rowId: ".? audio", description: "Menampilkan List Menu Audio"},
+{title: `╿🏢╿ Menu Group`, rowId: ".? group", description: "Menampilkan List Menu Group"},
+{title: `╿🗂️╿ Menu Database`, rowId: ".? database", description: "Menampilkan List Menu Database"},
+{title: `╿🛠️╿ Menu Tools`, rowId: ".? tools", description: "Menampilkan List Menu Tools"},
+{title: `╿ℹ️️╿ Menu Info`, rowId: ".? info", description: "Menampilkan List Menu Info"},
+{title: `╿👨‍💻╿ Menu Owner`, rowId: ".? owner", description: "Menampilkan List Menu Owner"},
 ]
 }, {
-title: `𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝙱𝚘𝚝 ${namebot} `,
+title: `Informasi Bot ${namebot} `,
 rows: [
-  {title: `📛 SPEED`, rowId: ".speed", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝙱𝚘𝚝"},
-	    {title: `💌 OWNER`, rowId: ".owner", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙽𝚘𝚖𝚎𝚛 𝙾𝚠𝚗𝚎𝚛 "},
-	    {title: `📔 SCRIPT`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎${namebot}`},
-	{title: `🗣️ REQUEST FITUR`, rowId: ".request", description: "𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝙵𝚒𝚝𝚞𝚛"},
-	{title: `👥 THANKS TO`, rowId: ".tqto", description: "𝚃𝚎𝚛𝚒𝚖𝚊 𝚔𝚊𝚜𝚒𝚑 𝙱𝚞𝚊𝚝 𝚈𝚊𝚗𝚐 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙸𝚗𝚒"},
+  {title: `╿📛╿ SPEED`, rowId: ".speed", description: "Kecepatan Respon Bot"},
+	    {title: `╿💌╿ OWNER`, rowId: ".owner", description: "Menampilkan Nomor Owner/Developer Bot"},
+	    {title: `╿📔╿ SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	{title: `╿🗣️╿ REQUEST FITUR`, rowId: ".request", description: "Request Fitur Baru"},
+	{title: `╿👥╿ THANKS TO`, rowId: ".tqto", description: "Menampilkan List Tqto Bot"},
 ]}]
 let psan = 'bagaimana kabarmu?'
 let usrs = db.data.users[m.sender]
@@ -244,19 +244,19 @@ let tagnya = `@${m.sender.split`@`[0]}`
 let jarot = `┏─────────────────⬣
 ┆ Hai, ${tagnya} 👋
 ┗┬──────────────┈ ⳹
-┏┆♠︎ *Name* : ${name}
-┃┆♠︎ *Limit* : ${limit}
-┃┆♠︎ *Uang* : ${money}
-┃┆♠︎ *Exp* : ${exp}
-┃┆♠︎ *Level* : ${level}
-┃┆♠︎ *Role* : ${role}
+┏┆♠︎ Name : ${name}
+┃┆♠︎ Limit : ${limit}
+┃┆♠︎ Money : ${money}
+┃┆♠︎ Exp : ${exp}
+┃┆♠︎ Level : ${level}
+┃┆♠︎ Role : ${role}
 ┗┬──────────────┈ ⳹
-┏┤   *Kalender*
+┏┤   Calendar
 ┆┗──────────────┈ ⳹
-┆♠︎ *Hari/ : ${week} ${weton}
-┆♠︎ *Uptime* : ${uptime}
-┆♠︎ *Time*:  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-┆︎︎♠︎ *Tanggal* : ${date}
+┆♠︎ Day : ${week} ${weton}
+┆♠︎ Uptime : ${uptime}
+┆♠︎ Time :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
+┆︎︎♠︎ Date : ${date}
 ┗─────────────────⬣`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
@@ -265,15 +265,15 @@ let hariRayaramadan = new Date('April 21, 2023 23:59:59')
      let jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) 
      let menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60)) 
      let detikk = Math.floor( lebih % (1000 * 60) / 1000) 
-let fot = `𝙽𝚘𝚝𝚎 𝙹𝚒𝚔𝚊 𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙵𝚒𝚝𝚞𝚛 𝙴𝚛𝚘𝚛/𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙱𝚞𝚐 
-𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙻𝚊𝚙𝚘𝚛 𝙺𝚎 𝙾𝚠𝚗𝚎𝚛 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙺𝚎𝚝𝚒𝚔 #𝚁𝚎𝚙𝚘𝚛𝚝
+let fot = `Note: Jika menemukan fitur bot yang error/Menemukan Bug 
+Silahkan Lapor Ke Owner Dengan Ketik #Report
 `
 const listMessage = {
 footer: fot,
-text: 'Made By WhatsApp',
+text: 'Made By Ryann.Dev',
 mentions: await conn.parseMention(jarot),
 title: jarot,
-buttonText: `CLICK HERE ⎙`, 
+buttonText: `Click Here ⎙`, 
 sections
 }
 if (teks == '404') {
@@ -340,7 +340,7 @@ let gh = 'https://github.com/RyannAditya?tab=repositories'
 let buttonMessage= {
 'document':{'url':gh},
 'mimetype': 'application/pdf',
-'fileName':'Bit WhatsApp By Ryan',
+'fileName':'Bot WhatsApp By Ryann.Dev',
 'fileLength':'99999999999999',
 'pageCount':'999',
 'contextInfo':{
@@ -355,9 +355,9 @@ let buttonMessage= {
 'caption': `             *『 D A S H B O A R D』*`,
 'footer': text,
 'buttons':[
-{'buttonId':'.owner','buttonText':{'displayText': 'Owner'},'type':1},
-{'buttonId':'.donasi','buttonText':{'displayText': 'Donasi'},'type':1},
-{'buttonId':'.rules','buttonText':{'displayText': 'Rules Bot'},'type':1},
+{'buttonId':'.owner','buttonText':{'displayText': 'Owner 👨‍💻'},'type':1},
+{'buttonId':'.donasi','buttonText':{'displayText': 'Donasi 💰'},'type':1},
+{'buttonId':'.rules','buttonText':{'displayText': 'Rules Bot 🖋'},'type':1},
 
 ],
 'headerType':6}

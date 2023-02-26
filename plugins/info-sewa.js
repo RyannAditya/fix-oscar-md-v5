@@ -2,16 +2,16 @@ let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
 let sh = '5'
-let sn = '7'
-let ss = '10'
-let sp = '15'
+let sn = '8'
+let ss = '15'
+let sp = '20'
 let sv = '25'
 //premium
-let ph = '3'
-let pn = '8'
-let pp = '15'
-let pv = '20'
-let ppm = '30'
+let ph = '2'
+let pn = '5'
+let pp = '8'
+let pv = '12'
+let ppm = '20'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
@@ -30,36 +30,34 @@ let info = `
 ╰═┅═━––––––๑
 
 *⫹⫺ PAYMENT:*
-• *Pulsa:* ['082350496532]
+• *Pulsa:* ['082350496532] [TELKOMSEL]
 • *Dana:* ['082350496532']
 
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
 💬: Mau tawar menawar? boleh, silahkan chat owner aja
 
-🗣️: Scam ga nih kak?
+🗣️: Scam?
 💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
-
-▌│█║▌║▌║║▌║▌║█│▌
 `
 const sections = [
    {
-	title: ` SEWA ✦-------`,
+	title: ` SEWA -------`,
 	rows: [
-	    {title: "🔖 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
-	    {title: "🔖 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 STANDAR", rowId: '.orsewa *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
-	{title: "🔖 PRO", rowId: '.orsewa *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
-	{title: "🔖 VIP", rowId: '.orsewa *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },
+	    {title: "╿🔖╿ HEMAT", rowId: '.orsewa *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
+	    {title: "╿🔖╿ NORMAL", rowId: '.orsewa *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
+	{title: "╿🔖╿ STANDAR", rowId: '.orsewa *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
+	{title: "╿🔖╿ PRO", rowId: '.orsewa *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
+	{title: "╿🔖╿ VIP", rowId: '.orsewa *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },
 	]
     }, {
-    title: ` PREMIUM ✦-------`,
+    title: ` PREMIUM -------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.orsewa *Paket:* HEMAT • Premium', description: 'PRICE: ' + ph + 'k (1 minggu)' },
-	    {title: "🌟 NORMAL", rowId: '.orsewa *Paket:* NORMAL • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 PRO", rowId: '.orsewa *Paket:* PRO • Premium', description: 'PRICE: ' + pp + 'k (4 bulan)' },
-	{title: "🌟 VIP", rowId: '.orsewa *Paket:* VIP • Premium', description: 'PRICE: ' + pv + 'k (8 bulan)' },
-	{title: "🌟 PERMANENT", rowId: '.orsewa *Paket:* PERMANENT • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
+	    {title: "╿🌟╿ HEMAT", rowId: '.orsewa *Paket:* HEMAT • Premium', description: 'PRICE: ' + ph + 'k (1 minggu)' },
+	    {title: "╿🌟╿ NORMAL", rowId: '.orsewa *Paket:* NORMAL • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
+	{title: "╿🌟╿ PRO", rowId: '.orsewa *Paket:* PRO • Premium', description: 'PRICE: ' + pp + 'k (4 bulan)' },
+	{title: "╿🌟╿ VIP", rowId: '.orsewa *Paket:* VIP • Premium', description: 'PRICE: ' + pv + 'k (8 bulan)' },
+	{title: "╿🌟╿ PERMANENT", rowId: '.orsewa *Paket:* PERMANENT • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
 	]
     },
 ]
