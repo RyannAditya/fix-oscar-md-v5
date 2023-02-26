@@ -1,7 +1,7 @@
 global.you = ['62822522851432'] 
 //Developer Bot
-global.namebot = 'YannXD.Botz'
-global.rowner = ['62822522851432', '62822522851430'] // Real Owner Bot
+global.namebot = 'EnCode-Botz'
+global.rowner = ['62822522851432', '62822522851432'] // Real Owner Bot
 global.owner = ['62822522851432'] // Owner Bot
 global.police = [] // Police Bot
 global.mods = []  // Want some help?
@@ -61,7 +61,7 @@ global.socket = {
 
 global.useMulti = false
 
-global.media = 'https://telegra.ph/file/ddbeaae468b8cb9a0eeb8.jpg'
+global.media = 'https://telegra.ph/file/968d978cd8f647d6a133c.jpg'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -70,7 +70,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/ddbeaae468b8cb9a0eeb8.jpg'
+global.thumbdoc = 'https://telegra.ph/file/968d978cd8f647d6a133c.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '564588643' // default 10TB
@@ -85,16 +85,16 @@ global.ytowner = '⫹⫺ Gada YT'
 global.gc2 = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 global.diskusi = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 // Sticker WM
-global.packname = 'YannXD.Botz'
-global.author = 'YannXD.Botz'
-global.wm = '© YannXD.Botz'
+global.packname = 'EnCode-Botz'
+global.author = 'Ryann.Dev'
+global.wm = '© EnCode-Botz'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
 global.lelang = []
 global.barter = []
 
-global.multiplier = 29 // The higher, The harder levelup
+global.multiplier = 39 // The higher, The harder levelup
 
 let fs = require('fs')
 let chalk = require('chalk')
