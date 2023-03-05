@@ -1,6 +1,6 @@
 global.you = ['62822522851432'] 
 //Developer Bot
-global.namebot = 'EnCode-Botz'
+global.namebot = 'Zx-Botz'
 global.rowner = ['62822522851432', '62822522851432'] // Real Owner Bot
 global.owner = ['62822522851432'] // Owner Bot
 global.police = [] // Police Bot
@@ -85,9 +85,9 @@ global.ytowner = '⫹⫺ Gada YT'
 global.gc2 = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 global.diskusi = '⫹⫺ Nih Jangan Lupa Join https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
 // Sticker WM
-global.packname = 'EnCode-Botz'
-global.author = 'Ryann.Dev'
-global.wm = '© EnCode-Botz'
+global.packname = 'Zx-Botz'
+global.author = 'ZxYanzZ'
+global.wm = '© Zx-Botz'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
