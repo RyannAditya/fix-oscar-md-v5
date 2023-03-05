@@ -195,10 +195,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 {
 title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `╿🔖╿ Sewa Bot`, rowId: ".sewa", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚂𝚎𝚠𝚊𝚋𝚘𝚝"},
-	    {title: `╿🌟╿ Upgrade Premium`, rowId: ".premium", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖"},
-	    {title: `╿💰╿ Donasi`, rowId: ".donasi", description: "𝚂𝚞𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝙷𝚒𝚍𝚞𝚙 𝚂𝚎𝚕𝚊𝚖𝚊 𝟸𝟺 𝙹𝚊𝚖"},
-	{title: `╿✨╿ Sosial Media Bot`, rowId: ".sosialmedia", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝 𝚄𝚙𝚍𝚊𝚝𝚎'},
+	    {title: `╿🔖╿ Sewa Bot`, rowId: ".sewa", description: "Menampilkan List Harga Sewa Bot"},
+	    {title: `╿🌟╿ Upgrade Premium`, rowId: ".premium", description: "Menampilkan List Harga Upgrade Premium"},
+	    {title: `╿💰╿ Donasi`, rowId: ".donasi", description: "Support Bot Agar Online 24 jam"},
+	{title: `╿✨╿ Sosial Media Bot`, rowId: ".sosialmedia", description: 'Support Bot Agar Semangat Update Fitur² Terbaru'},
 	]
 	},{
 title: `⃟⟣⟚⟝ ⟡ List Menu ${namebot} ⟡ ⟞⟚⟢⃟`,
@@ -244,19 +244,27 @@ let tagnya = `@${m.sender.split`@`[0]}`
 let jarot = `┏─────────────────⬣
 ┆ Hai, ${tagnya} 👋
 ┗┬──────────────┈ ⳹
-┏┆♠︎ Name : ${name}
-┃┆♠︎ Limit : ${limit}
-┃┆♠︎ Money : ${money}
-┃┆♠︎ Exp : ${exp}
-┃┆♠︎ Level : ${level}
-┃┆♠︎ Role : ${role}
+┏┆♠︎ 👤 Name : *${name}*
+┃┆
+┃┆♠︎ ⏱️ Limit : *${limit}*
+┃┆
+┃┆♠︎ 💸 Money : *${money}*
+┃┆
+┃┆♠︎ 💹 Exp : *${exp}*
+┃┆
+┃┆♠︎ 📊 Level : *${level}*
+┃┆
+┃┆♠︎ 🎭 Role : *${role}*
+┃┆
 ┗┬──────────────┈ ⳹
-┏┤   Calendar
+┏┤   *Calendar* 📆
 ┆┗──────────────┈ ⳹
-┆♠︎ Day : ${week} ${weton}
-┆♠︎ Uptime : ${uptime}
-┆♠︎ Time :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-┆︎︎♠︎ Date : ${date}
+┆♠︎ 🏞️ Day : *${week}* *${weton}*
+┆
+┆♠︎ ⏱️ Uptime : *${uptime}*
+┆♠︎ ⏰ Time :  *${moment.tz('Asia/Jakarta').format('HH')}* *H${moment.tz('Asia/Jakarta').format('mm')}* *M${moment.tz('Asia/Jakarta').format('ss')}* *S*
+┆
+┆︎︎♠︎ 📆 Date : *${date}*
 ┗─────────────────⬣`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
@@ -270,7 +278,7 @@ Silahkan Lapor Ke Owner Dengan Ketik #Report
 `
 const listMessage = {
 footer: fot,
-text: 'Made By Ryann.Dev',
+text: 'Made By Ryan Store',
 mentions: await conn.parseMention(jarot),
 title: jarot,
 buttonText: `Click Here ⎙`, 
